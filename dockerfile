@@ -10,5 +10,5 @@ WORKDIR /var/www/html
 # Expose port 80 for the Apache server
 EXPOSE 80
 
-# Start Apache in the foreground
+# Start Apache in the foregroundB
 CMD ["apache2-foreground"]
